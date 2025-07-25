@@ -4,7 +4,7 @@ import './SearchBox.css';
 import { useState } from "react";
 
 export default function SearchBox({ searchInfo }) {
-  const API = "2b4dfa27ada86ef3bcc9bf12cc13b4bb";
+  const API = "yourapi";
   const url = "https://api.openweathermap.org/data/2.5/weather";
 
   let [cityName, setCityName] = useState("");
